@@ -1,4 +1,4 @@
 
 ## About 
 
-Export PDF file with arabic lang support
+Export PDF file with arabic lang support.
