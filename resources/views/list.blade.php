@@ -1,4 +1,4 @@
-<table class="table table-bordered" dir="rtl" style="font-size: 18px; padding: 2px;">
+<table class="table table-bordered" dir="rtl">
     <tr>
         <th></th>
         <th>الاسم</th>

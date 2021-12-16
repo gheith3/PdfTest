@@ -7,7 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title></title>
-
+    <style>
+        body{
+            font-size: 16px;
+        }
+        th{
+          text-align: right;
+        }
+    </style>
 </head>
 <body>
 <h3 class="text-center">

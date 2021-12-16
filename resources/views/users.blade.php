@@ -18,25 +18,7 @@
                        </div>
                    </div>
                    <div class="card-body">
-                       <table class="table table-bordered" dir="rtl" style="font-size: 18px; padding: 2px;">
-                           <tr>
-                               <th></th>
-                               <th>الاسم</th>
-                               <th>العنوان</th>
-                               <th>الايميل</th>
-                               <th>الهاتف</th>
-                           </tr>
-                           @php($i = 1)
-                           @foreach($users as $user)
-                               <tr>
-                                   <td>{{$i++}}</td>
-                                   <td>{{$user["name"]}}</td>
-                                   <td>{{$user["email"]}}</td>
-                                   <td>{{$user["address"]}}</td>
-                                   <td>{{$user["phone"]}}</td>
-                               </tr>
-                           @endforeach
-                       </table>
+                       @include("list")
                    </div>
                </div>
            </div>

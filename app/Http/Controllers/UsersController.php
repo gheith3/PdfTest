@@ -17,7 +17,7 @@ class UsersController extends Controller
     {
         $data = [
             'users' => $this->GetUsers(),
-            'title' => "here we go"
+            'title' => "قائمة المتسخدمين"
         ];
 
         return \PDF::loadView('export', $data, [], [
